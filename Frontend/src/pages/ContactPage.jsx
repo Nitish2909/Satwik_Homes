@@ -251,16 +251,16 @@ import StaggerChildren from '../components/StaggerChildren';
 const offices = [
   { 
     city: 'Karnal (HQ)', 
-    address: 'Karnal, Haryana', 
-    phone: '+91 80 4000 5000',
+    address: '162 Sector-12, Part-II ,Urban Estate,Karnal,132001,Haryana', 
+    phone: '+91 9813369209',
     embedUrl: 'https://maps.google.com/maps?q=100%20Ft%20Road,%20Indiranagar,%20Bangalore%20560038&t=&z=15&ie=UTF8&iwloc=&output=embed'
   },
-  { 
-    city: 'Mumbai', 
-    address: 'Bandra Kurla Complex, Mumbai 400051', 
-    phone: '+91 22 6000 7000',
-    embedUrl: 'https://maps.google.com/maps?q=Bandra%20Kurla%20Complex,%20Mumbai%20400051&t=&z=15&ie=UTF8&iwloc=&output=embed'
-  },
+  // { 
+  //   city: 'Mumbai', 
+  //   address: 'Bandra Kurla Complex, Mumbai 400051', 
+  //   phone: '+91 22 6000 7000',
+  //   embedUrl: 'https://maps.google.com/maps?q=Bandra%20Kurla%20Complex,%20Mumbai%20400051&t=&z=15&ie=UTF8&iwloc=&output=embed'
+  // },
   // { 
   //   city: 'Hyderabad', 
   //   address: 'Jubilee Hills, Hyderabad 500033', 
