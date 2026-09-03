@@ -153,7 +153,7 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start">
                 <FiMapPin className="text-[#79c96e] mt-1 mr-3 flex-shrink-0" size={18} />
-                <span>Satwik Homes Tower, UB City,<br/>Vittal Mallya Road,<br/>Bangalore 560001</span>
+                <span>162 Sector-12, Part-2,<br/>Urban Estate,Karnal<br/>,132001,Haryana</span>
               </li>
               <li className="flex items-center">
                 <FiPhone className="text-[#79c96e] mr-3 flex-shrink-0" size={18} />

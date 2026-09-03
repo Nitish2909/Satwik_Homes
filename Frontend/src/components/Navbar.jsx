@@ -284,7 +284,7 @@ const Navbar = () => {
                 className="flex items-center text-white hover:text-[#79c96e] transition-colors"
               >
                 <FiPhone className="mr-2" />
-                <span className="font-sans text-sm">1800 123 4567</span>
+                <span className="font-sans text-sm">9813369209</span>
               </a>
               <Link
                 to="/contact"
