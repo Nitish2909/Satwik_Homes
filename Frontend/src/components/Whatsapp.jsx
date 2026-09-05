@@ -10,7 +10,7 @@ const WhatsApp = ()=> {
         {/* Phone */}
         <a
           href="tel:+"
-          className="w-14 h-14 bg-blue-600 rounded-full shadow-2xl flex items-center justify-center text-white hover:bg-blue-700 transition-all hover:-translate-y-0.5"
+          className="w-11 h-11 bg-blue-600 rounded-full shadow-2xl flex items-center justify-center text-white hover:bg-blue-700 transition-all hover:-translate-y-0.5"
           aria-label="Call us"
         >
           <Phone size={28} />
@@ -21,7 +21,7 @@ const WhatsApp = ()=> {
           href="https://wa.me/"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-14 h-14 bg-green-500 rounded-full shadow-2xl flex items-center justify-center text-white hover:bg-green-600 transition-all hover:-translate-y-0.5"
+          className="w-11 h-11 bg-green-500 rounded-full shadow-2xl flex items-center justify-center text-white hover:bg-green-600 transition-all hover:-translate-y-0.5"
           aria-label="Chat on WhatsApp"
         >
           <FaWhatsapp size={30} />

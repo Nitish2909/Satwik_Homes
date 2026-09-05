@@ -28,6 +28,7 @@ import OfficePage from "./pages/OurBusinesses/OfficeSpacePage";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfServices";
 import FacilityManagementPage from "./pages/OurBusinesses/FacilityManagementPage";
+import SocialLinks from "./components/Sociallinks";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -132,9 +133,9 @@ const App = () => {
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </AnimatePresence>
-
+            <SocialLinks/>
             <Footer />
-            <BackToTop />
+            {/* <BackToTop /> */}
           </React.Fragment>
         )}
       </AnimatePresence>

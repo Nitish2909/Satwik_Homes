@@ -187,7 +187,7 @@ const HeroVideo = () => {
 
   const videos = [
     // 'https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4',
-   Firstvideo,
+   'https://www.pexels.com/download/video/34345704/',
     // 'https://videos.pexels.com/video-files/3773486/3773486-uhd_2560_1440_30fps.mp4',
     Secondvideo,
     // 'https://videos.pexels.com/video-files/7578554/7578554-uhd_2560_1440_30fps.mp4',
@@ -277,7 +277,7 @@ const HeroVideo = () => {
       {/* Main Content */}
       <div className="absolute inset-0 z-20 flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 pt-20">
         <div className="text-center w-full max-w-5xl mx-auto flex flex-col items-center">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -286,10 +286,10 @@ const HeroVideo = () => {
             <span className="inline-block border border-[#79c96e] text-[#79c96e] uppercase tracking-[0.2em] text-xs font-semibold px-4 py-1.5 backdrop-blur-sm bg-black/20 rounded-sm">
               Luxury Living Redefined
             </span>
-          </motion.div>
+          </motion.div> */}
 
           {/* Dynamic Animated Text Content */}
-          <AnimatePresence mode="wait">
+          {/* <AnimatePresence mode="wait">
             <motion.div
               key={currentVideoIndex}
               initial={{ opacity: 0, y: 20 }}
@@ -309,21 +309,21 @@ const HeroVideo = () => {
                 {heroSlides[currentVideoIndex].subtitle}
               </p>
             </motion.div>
-          </AnimatePresence>
+          </AnimatePresence> */}
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5, type: 'spring', stiffness: 100 }}
             className="w-full max-w-4xl"
           >
             <SearchBar variant="hero" />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
       {/* Navigation Arrows */}
-      <div className="absolute inset-y-0 left-4 z-30 flex items-center">
+      {/* <div className="absolute inset-y-0 left-4 z-30 flex items-center">
         <button
           onClick={handlePrev}
           className="w-12 h-12 rounded-full border border-white/20 bg-black/20 backdrop-blur-sm flex items-center justify-center text-white/70 hover:text-white hover:bg-[#79c96e]/80 hover:border-transparent transition-all duration-300 opacity-0 md:opacity-100 hover:scale-110"
@@ -338,12 +338,12 @@ const HeroVideo = () => {
         >
           <FiChevronRight size={24} />
         </button>
-      </div>
+      </div> */}
 
       {/* Bottom Indicators */}
       <div className="absolute bottom-8 left-0 w-full z-20 flex flex-col items-center">
         {/* Progress Dots */}
-        <div className="flex space-x-3 mb-6">
+        {/* <div className="flex space-x-3 mb-6">
           {videos.map((_, index) => (
             <button
               key={index}
@@ -354,7 +354,7 @@ const HeroVideo = () => {
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Scroll Down */}
         <motion.div
