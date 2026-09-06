@@ -546,7 +546,7 @@ const HomePage = () => {
       </section>
 
       {/* 8. News */}
-      <AnimatedSection className="py-24 px-6 md:px-16 bg-[#f5f5f5]">
+      {/* <AnimatedSection className="py-24 px-6 md:px-16 bg-[#f5f5f5]">
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl font-bold text-[#1a1a2e]">
             In The News
@@ -580,7 +580,7 @@ const HomePage = () => {
             </div>
           ))}
         </div>
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       {/* 9. Contact CTA */}
       <AnimatedSection className="py-20 bg-[#79c96e] text-center px-6">
