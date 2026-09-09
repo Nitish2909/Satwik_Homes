@@ -164,9 +164,9 @@ const Footer = () => {
                 <a href="mailto:info@satwikhomes.com" className="hover:text-[#79c96e] transition-colors">info@satwikhomes.com</a>
               </li>
               <li className="pt-2">
-                <span className="text-[#79c96e] font-medium mb-2 block">Offices in:</span>
+                <span className="text-[#79c96e] font-medium mb-2 block">Office in:</span>
                 <p className="text-gray-400 text-xs leading-relaxed">
-                  Bangalore | Hyderabad | Mumbai | Pune | Goa
+                  Karnal
                 </p>
               </li>
             </ul>
