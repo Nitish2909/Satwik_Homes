@@ -203,14 +203,14 @@ export default function PrivacyPolicy() {
           }
         });
       },
-      { rootMargin: "-20% 0px -70% 0px" }
+      { rootMargin: "-20% 0px -70% 0px" },
     );
-    
+
     SECTIONS.forEach((section) => {
       const el = document.getElementById(section.id);
       if (el) observer.observe(el);
     });
-    
+
     return () => observer.disconnect();
   }, []);
 
@@ -222,7 +222,12 @@ export default function PrivacyPolicy() {
   return (
     <>
       {/* Header */}
-      <section className="bg-gradient-to-br from-slate-800 to-slate-900 py-16 px-4 text-center">
+      <section
+        className="bg-cover bg-center py-16 px-4 text-center "
+        style={{
+          backgroundImage: `url('https://images.pexels.com/photos/4081946/pexels-photo-4081946.jpeg')`,
+        }}
+      >
         <div className="max-w-3xl mx-auto mt-12">
           <div className="w-14 h-14 rounded-2xl bg-amber-500 flex items-center justify-center mx-auto mb-4">
             <Shield className="w-7 h-7 text-white" />
@@ -239,7 +244,8 @@ export default function PrivacyPolicy() {
           </p>
           <p className="text-slate-300 mt-4 max-w-xl mx-auto leading-relaxed">
             At Satwik Homes, your privacy matters. This policy explains how we
-            collect, use, and safeguard your personal information when you navigate our platform and real estate services.
+            collect, use, and safeguard your personal information when you
+            navigate our platform and real estate services.
           </p>
         </div>
       </section>

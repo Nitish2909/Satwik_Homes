@@ -264,7 +264,7 @@ export default function TermsOfService() {
           if (entry.isIntersecting) setActiveSection(entry.target.id);
         });
       },
-      { rootMargin: "-20% 0px -70% 0px" }
+      { rootMargin: "-20% 0px -70% 0px" },
     );
     SECTIONS.forEach((section) => {
       const el = document.getElementById(section.id);
@@ -281,7 +281,12 @@ export default function TermsOfService() {
   return (
     <>
       {/* Header */}
-      <section className="bg-gradient-to-br from-slate-800 to-slate-900 py-16 px-4 text-center">
+      <section
+        className="bg-cover bg-center py-16 px-4 text-center "
+        style={{
+          backgroundImage: `url('https://images.pexels.com/photos/3016321/pexels-photo-3016321.jpeg')`,
+        }}
+      >
         <div className="max-w-3xl mx-auto mt-12">
           <div className="w-14 h-14 rounded-2xl bg-amber-500 flex items-center justify-center mx-auto mb-4">
             <FileText className="w-7 h-7 text-white" />
@@ -297,8 +302,9 @@ export default function TermsOfService() {
             })}
           </p>
           <p className="text-slate-300 mt-4 max-w-xl mx-auto leading-relaxed">
-            Please read these terms carefully before engaging with Satwik Homes. By
-            using our platform or services, you agree to be bound by these terms.
+            Please read these terms carefully before engaging with Satwik Homes.
+            By using our platform or services, you agree to be bound by these
+            terms.
           </p>
         </div>
       </section>
@@ -366,8 +372,8 @@ export default function TermsOfService() {
               >
                 satwikhomes@gmail.com
               </a>
-              . These terms were last updated in September 2026 and supersede all
-              prior versions.
+              . These terms were last updated in September 2026 and supersede
+              all prior versions.
             </p>
           </div>
         </article>
