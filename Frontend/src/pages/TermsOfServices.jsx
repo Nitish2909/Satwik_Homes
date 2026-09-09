@@ -16,7 +16,7 @@ const SECTIONS = [
       "If you do not agree to these Terms, please do not use our services. These Terms constitute a legally binding agreement between you and Satwik Homes Real Estate Pvt. Ltd.",
       {
         heading: "Eligibility",
-        body: "You must be at least 18 years of age to create an account and make bookings. Users between 15 and 17 years may participate in trips with the written consent of a parent or legal guardian.",
+        body: "You must be at least 18 years of age and legally competent to enter into binding contracts under applicable Indian laws to create an account, list properties, or execute property transactions.",
       },
       {
         heading: "Updates to Terms",
@@ -26,111 +26,99 @@ const SECTIONS = [
   },
   {
     id: "booking-and-payment",
-    title: "Booking & Payment",
+    title: "Property Booking & Payment",
     content: [
       {
-        heading: "Booking Process",
-        body: "A booking is confirmed only upon receipt of payment (full or partial deposit as specified) and issuance of a confirmation email from Satwik Homes. Availability is subject to change until payment is received.",
+        heading: "Booking & Token Process",
+        body: "A property booking, site visit reservation, or token payment is confirmed only upon receipt of payment (full or advance deposit as specified) and issuance of a confirmation email/receipt from Satwik Homes. Property availability is subject to change until payment is confirmed.",
       },
       {
-        heading: "Pricing",
-        body: "All prices are listed in Indian Rupees (INR) unless otherwise stated. Prices are subject to change without notice until a booking is confirmed. Satwik Homes reserves the right to correct pricing errors.",
+        heading: "Pricing & Valuation",
+        body: "All property prices and service fees are listed in Indian Rupees (INR) unless otherwise stated. Prices are subject to seller updates or market adjustments prior to booking confirmation. Satwik Homes reserves the right to correct typographical or pricing errors.",
       },
       {
         heading: "Payment Methods",
-        body: "We accept UPI, credit/debit cards and net banking options through our payment partner Razorpay. International payments may be subject to additional charges by your bank.",
+        body: "We accept UPI, credit/debit cards, and net banking options through our payment partner Razorpay. Wire transfers and direct bank transfers may also be accommodated for large transactions.",
       },
       {
-        heading: "Deposit & Balance",
-        body: "For trips with a partial deposit option, the balance must be paid by the due date specified in your booking confirmation. Failure to pay the balance by the due date may result in automatic cancellation without refund of the deposit.",
+        heading: "Deposit & Balance Payment",
+        body: "For property deals requiring an initial token or advance deposit, the remaining balance must be paid by the due date specified in your booking or sales agreement. Failure to pay the balance by the due date may result in cancellation of the booking as per agreement terms.",
       },
       {
-        heading: "Taxes & Fees",
-        body: "GST and applicable taxes are not included in the listed price. Service fees, if any, will be clearly displayed before checkout.",
+        heading: "Taxes & Registration Fees",
+        body: "GST, statutory taxes, stamp duty, and government registration fees are not included in the basic listed property price unless explicitly specified. Service fees, if any, will be clearly displayed before payment.",
       },
       {
-        heading: "Price Inclusions",
-        body: "Each trip's listing clearly states what is included and excluded. Satwik Homes is not responsible for expenses not listed as inclusions (e.g., personal expenses, tips, visa fees).",
+        heading: "Price Inclusions & Exclusions",
+        body: "Each property listing clearly states what is included (e.g., parking space, maintenance deposit, amenities). Satwik Homes is not responsible for external costs not listed as inclusions (e.g., individual utility connections, legal registration charges).",
       },
     ],
   },
   {
     id: "cancellation-policy",
-    title: "Cancellation Policy",
+    title: "Cancellation & Refund Policy",
     content: [
       {
         heading: "User-Initiated Cancellations",
-        body: "Our refund policy is tiered based on the number of days before the trip departure date at the time of cancellation.",
+        body: "Our refund policy for token amounts, service fees, or site visit bookings is tiered based on the notice period given prior to the scheduled transaction or agreement date.",
       },
       "__refund_table__",
       "Processing fees and payment gateway charges (typically 2–3%) are non-refundable in all cases.",
       {
         heading: "How to Cancel",
-        body: "Cancellations must be submitted in writing via your Satwik Homes account dashboard or by emailing Satwik HomesReal Estate@gmail.com. The cancellation date is the date we receive your written request.",
+        body: "Cancellations must be submitted in writing via your Satwik Homes account dashboard or by emailing satwikhomes@gmail.com. The cancellation date is the date we receive your written request.",
       },
       {
         heading: "Satwik Homes-Initiated Cancellations",
-        body: "If Satwik Homes cancels a trip due to insufficient bookings, natural disasters, government advisories, or other circumstances beyond our control, you will receive a full refund or the option to transfer to an alternative trip.",
+        body: "If Satwik Homes or the property builder cancels a booking due to legal discrepancies, title issues, property unavailability, or force majeure, you will receive a full refund or the option to transfer your deposit to an alternative listing.",
       },
       {
-        heading: "Real Estate Insurance",
-        body: "We strongly recommend purchasing comprehensive Real Estate insurance that covers trip cancellation, medical emergencies, and baggage loss. Satwik Homes can recommend insurance partners upon request.",
+        heading: "Property Advisory & Verification",
+        body: "We strongly recommend conducting independent legal verification and title checks prior to making major financial commitments. Satwik Homes can recommend legal advisory partners upon request.",
       },
     ],
   },
   {
-    id: "Real Estate-documentation",
-    title: "Real Estate Documentation",
+    id: "real-estate-documentation",
+    title: "Property & Identity Documentation",
     content: [
       {
-        heading: "Responsibility",
-        body: "It is your sole responsibility to ensure that you hold all required and valid Real Estate documents for your trip, including but not limited to passports, visas, inner line permits, national park permits, and health certificates.",
+        heading: "User Responsibility",
+        body: "It is your sole responsibility to ensure that you provide valid identity details and legal documents required for real estate purchase, sale, lease, or registry.",
       },
       {
-        heading: "Passport & Visa",
-        body: "For international trips, your passport must be valid for at least 6 months beyond your return date. Visa requirements vary by nationality and destination. Satwik Homes can advise on general requirements but is not responsible for visa denials or incorrect documentation.",
+        heading: "Government Identifiers & KYC",
+        body: "For real estate transactions in India, government-issued photo ID and tax identification (such as PAN Card, Voter ID, or Passport) are mandatory for buyers, sellers, and tenants for KYC and registry compliance.",
       },
       {
-        heading: "Domestic ID",
-        body: "For domestic India trips, a government-issued photo ID (Aadhaar Card, PAN Card, Voter ID, or Passport) is mandatory for all Real Estatelers and must be produced at the time of check-in.",
-      },
-      {
-        heading: "Medical Requirements",
-        body: "Some destinations require proof of vaccination (e.g., Yellow Fever for certain African countries). It is your responsibility to obtain required vaccinations and carry proof of the same.",
+        heading: "Property Title & Verification Documents",
+        body: "Sellers and builders listing properties on Satwik Homes must provide clear title deeds, approved building plans, non-encumbrance certificates, and RERA registration details where applicable.",
       },
       {
         heading: "Document Copies",
-        body: "We recommend carrying both physical and digital copies of all important documents. Satwik Homes bears no responsibility for losses arising from missing or invalid documentation.",
+        body: "We recommend maintaining physical and digital copies of all agreements, receipts, and ownership documents. Satwik Homes bears no responsibility for financial losses arising from missing, fraudulent, or invalid documentation supplied by users.",
       },
     ],
   },
   {
     id: "health-and-safety",
-    title: "Health & Safety",
+    title: "Site Visit & Property Inspection Safety",
     content: [
       {
-        heading: "Fitness Declaration",
-        body: "By booking a trek or adventure activity, you confirm that you are in good physical health and fitness for the activity. Some trips have minimum fitness requirements which are stated on the trip listing page.",
-      },
-      {
-        heading: "Medical Conditions",
-        body: "If you have a pre-existing medical condition, it is your responsibility to consult your physician before booking. You must disclose relevant medical conditions to your guide on the day of departure.",
+        heading: "Site Visit Declaration",
+        body: "By scheduling a site visit to active construction sites or real estate projects, you agree to adhere to safety guidelines posted at the location.",
       },
       {
         heading: "Safety Instructions",
-        body: "You agree to follow all safety instructions given by Satwik Homes guides and staff. Failure to comply may result in removal from the trip without refund.",
+        body: "You agree to follow all safety instructions provided by Satwik Homes site representatives, project managers, and property guides. Mandatory safety gear (such as hard hats on active construction sites) must be worn when required.",
       },
       {
         heading: "Risk Acknowledgement",
-        body: "Outdoor adventure activities inherently carry risks including, but not limited to, altitude sickness, adverse weather, wildlife encounters, and physical injury. By participating, you acknowledge and accept these risks.",
+        body: "Inspecting properties, especially those under construction, carries inherent physical risks. By participating in a site visit, you acknowledge and accept these operational risks.",
       },
-      // {
-      //   heading: "Emergency Procedures",
-      //   body: "Satwik Homes maintains emergency protocols and first-aid trained guides for all trips. In case of a medical emergency, our team will arrange evacuation to the nearest medical facility. Costs of emergency evacuation are the Real Estateler's responsibility.",
-      // },
       {
-        heading: "Alcohol & Substances",
-        body: "Consumption of alcohol is restricted on trekking days. Use of illegal substances is strictly prohibited and will result in immediate removal from the trip without refund.",
+        heading: "Code of Conduct",
+        body: "Unlawful behavior, trespassing onto unapproved site areas, or damage to property during site visits is strictly prohibited and may result in immediate termination of services and legal action.",
       },
     ],
   },
@@ -140,46 +128,46 @@ const SECTIONS = [
     content: [
       {
         heading: "Scope",
-        body: "To the maximum extent permitted by applicable law, Satwik Homes, its directors, employees, agents, and partners shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services.",
+        body: "To the maximum extent permitted by applicable law, Satwik Homes, its directors, employees, agents, and partners shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our real estate services.",
       },
       {
-        heading: "Third Parties",
-        body: "Satwik Homes acts as an organiser and coordinator of Real Estate experiences. We work with independent third-party suppliers (hotels, airlines, activity operators). While we vet our partners, Satwik Homes is not responsible for the acts, omissions, or defaults of these third parties.",
+        heading: "Third-Party Sellers & Developers",
+        body: "Satwik Homes acts as a platform connecting property buyers, sellers, agents, and developers. While we strive to verify listings, Satwik Homes is not responsible for misrepresentations, structural defects, construction delays, or defaults caused by third-party sellers or developers.",
       },
       {
         heading: "Force Majeure",
-        body: "Satwik Homes shall not be liable for any failure or delay in performance arising from circumstances beyond our reasonable control, including natural disasters, acts of God, war, terrorism, government actions, pandemics, or strikes.",
+        body: "Satwik Homes shall not be liable for any failure or delay in performance arising from circumstances beyond our reasonable control, including natural disasters, acts of God, legal restrictions, government action, or market disruptions.",
       },
       {
         heading: "Cap on Liability",
-        body: "Where liability cannot be excluded by law, Satwik Homes's total liability to you for any claim shall not exceed the amount you paid to Satwik Homes for the specific trip giving rise to the claim.",
+        body: "Where liability cannot be excluded by law, Satwik Homes's total liability to you for any claim shall not exceed the service fee amount paid by you to Satwik Homes for the specific transaction giving rise to the claim.",
       },
       {
         heading: "Indemnification",
-        body: "You agree to indemnify and hold Satwik Homes harmless from any claims, damages, or expenses (including legal fees) arising from your violation of these Terms, your negligence, or your wilful misconduct during a trip.",
+        body: "You agree to indemnify and hold Satwik Homes harmless from any claims, damages, or expenses (including legal fees) arising from your violation of these Terms, misrepresentation of property details, or willful misconduct.",
       },
     ],
   },
   {
     id: "changes-to-terms",
-    title: "Changes to Terms",
+    title: "Changes to Terms & Jurisdiction",
     content: [
       "Satwik Homes reserves the right to modify these Terms of Service at any time. We will provide reasonable notice of significant changes by sending an email to your registered email address and posting a notice on our website with the effective date of changes.",
       {
         heading: "Continued Use",
-        body: "Your continued use of Satwik Homes's services after the effective date of any modifications constitutes your acceptance of the revised Terms.",
+        body: "Your continued use of Satwik Homes's platform after the effective date of any modifications constitutes your acceptance of the revised Terms.",
       },
       {
         heading: "Governing Law",
-        body: "These Terms are governed by and construed in accordance with the laws of India. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts of New Delhi, India.",
+        body: "These Terms are governed by and construed in accordance with the laws of India. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts of Karnal / New Delhi, India.",
       },
       {
         heading: "Entire Agreement",
-        body: "These Terms, together with our Privacy Policy and any booking-specific terms, constitute the entire agreement between you and Satwik Homes regarding your use of our services.",
+        body: "These Terms, together with our Privacy Policy and any transaction-specific agreements, constitute the entire agreement between you and Satwik Homes regarding your use of our services.",
       },
       {
         heading: "Contact Us",
-        body: "For any questions about these Terms, please contact us at Satwik HomesReal Estate@gmail.com or write to us at SCO 98, Sec 4-5, Urban Estate, Karnal, Haryana — 132001.",
+        body: "For any questions about these Terms, please contact us at satwikhomes@gmail.com or write to us at SCO 98, Sec 4-5, Urban Estate, Karnal, Haryana — 132001.",
       },
     ],
   },
@@ -187,16 +175,20 @@ const SECTIONS = [
 
 const REFUND_TABLE = [
   {
-    period: "15+ days before departure",
+    period: "15+ days before agreement / visit date",
     refund: "90% — Full Refund",
     icon: "green",
   },
   {
-    period: "10-12 days before departure",
+    period: "10-12 days before agreement / visit date",
     refund: "50% Refund",
     icon: "amber",
   },
-  { period: "Less than 3 days / No-show", refund: "No Refund", icon: "red" },
+  {
+    period: "Less than 3 days / No-show",
+    refund: "No Refund",
+    icon: "red",
+  },
 ];
 
 function SectionContent({ content }) {
@@ -210,10 +202,10 @@ function SectionContent({ content }) {
                 <thead>
                   <tr className="bg-amber-50">
                     <th className="px-4 py-3 text-left text-amber-800 font-bold border border-amber-200">
-                      Notice Period
+                      Cancellation Notice Period
                     </th>
                     <th className="px-4 py-3 text-left text-amber-800 font-bold border border-amber-200">
-                      Refund Amount
+                      Eligible Refund
                     </th>
                   </tr>
                 </thead>
@@ -272,7 +264,7 @@ export default function TermsOfService() {
           if (entry.isIntersecting) setActiveSection(entry.target.id);
         });
       },
-      { rootMargin: "-20% 0px -70% 0px" },
+      { rootMargin: "-20% 0px -70% 0px" }
     );
     SECTIONS.forEach((section) => {
       const el = document.getElementById(section.id);
@@ -300,19 +292,17 @@ export default function TermsOfService() {
           <p className="text-slate-400 text-sm">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
-              date: "",
               month: "long",
               year: "numeric",
             })}
           </p>
           <p className="text-slate-300 mt-4 max-w-xl mx-auto leading-relaxed">
-            Please read these terms carefully before booking with Satwik Homes. By
-            using our services, you agree to be bound by these terms.
+            Please read these terms carefully before engaging with Satwik Homes. By
+            using our platform or services, you agree to be bound by these terms.
           </p>
         </div>
       </section>
 
-      
       {/* Content */}
       <div className="max-w-screen-xl mx-auto px-4 py-12 lg:flex lg:gap-10">
         {/* Sticky TOC sidebar */}
@@ -333,7 +323,11 @@ export default function TermsOfService() {
                   }`}
                 >
                   <ChevronRight
-                    className={`w-3.5 h-3.5 flex-shrink-0 ${activeSection === section.id ? "text-amber-500" : "text-slate-300"}`}
+                    className={`w-3.5 h-3.5 flex-shrink-0 ${
+                      activeSection === section.id
+                        ? "text-amber-500"
+                        : "text-slate-300"
+                    }`}
                   />
                   <span className="leading-tight">{section.title}</span>
                 </button>
@@ -367,12 +361,12 @@ export default function TermsOfService() {
               </strong>{" "}
               Contact our legal team at{" "}
               <a
-                href="mailto:Satwik HomesReal Estate@gmail.com"
+                href="mailto:satwikhomes@gmail.com"
                 className="text-amber-600 hover:text-amber-700 font-medium underline underline-offset-2"
               >
-                Satwik HomesReal Estate@gmail.com
+                satwikhomes@gmail.com
               </a>
-              . These terms were last updated in July 2026 and supersede all
+              . These terms were last updated in September 2026 and supersede all
               prior versions.
             </p>
           </div>

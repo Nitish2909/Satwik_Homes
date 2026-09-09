@@ -6,22 +6,22 @@ const SECTIONS = [
     id: "information-we-collect",
     title: "Information We Collect",
     content: [
-      "Your privacy is important to us. It is Satwik Homes policy to respect your privacy regarding any information we may collect from you across our website, https://satwikhomes.com/, and other sites we own and operate.",
+      "Your privacy is important to us. It is Satwik Homes' policy to respect your privacy regarding any information we may collect from you across our website, https://satwikhomes.com/, and other platforms we own and operate.",
       {
         heading: "Personal Information",
-        body: "We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.",
+        body: "We only ask for personal information when we truly need it to provide real estate services to you (e.g., inquiry forms, property listing, site visit bookings). We collect it by fair and lawful means, with your knowledge and consent.",
       },
       {
-        heading: "Usage Data",
-        body: "We automatically collect information about how you interact with our website and app, including your IP address, browser type, pages visited, links clicked, search queries, device identifiers, and referring URLs. This data helps us improve our services and personalise your experience.",
+        heading: "Usage & Property Activity Data",
+        body: "We automatically collect information about how you interact with our website, including your IP address, browser type, saved properties, search filters (e.g., location, budget, property type), viewed listings, device identifiers, and referring URLs. This data helps us personalise your property search.",
       },
       {
         heading: "Location Data",
-        body: "With your permission, we may collect precise or approximate location data from your mobile device to provide location-based features such as nearby trip suggestions.",
+        body: "With your permission, we may collect location data from your device to provide location-based features, such as showing nearby properties, projects, and local neighborhood insights.",
       },
       {
-        heading: "Communications",
-        body: "When you contact our support team, we retain records of those interactions, including chat logs, emails, and call notes.",
+        heading: "Communications & Inquiries",
+        body: "When you contact us, send inquiries to property owners/agents, or request a call-back, we retain records of those interactions, including form submissions, chat logs, emails, and call notes.",
       },
     ],
   },
@@ -29,30 +29,30 @@ const SECTIONS = [
     id: "how-we-use-information",
     title: "How We Use Your Information",
     content: [
-      "Satwik Homes uses the information we collect for the following purposes:",
+      "Satwik Homes uses the information we collect for the following real estate service purposes:",
       {
         heading: "Service Delivery",
-        body: "To process your bookings, issue confirmations, coordinate with hotels, airlines, and tour operators, and deliver the travel services you have purchased.",
+        body: "To facilitate buying, selling, renting, or leasing transactions, schedule site visits, connect you with verified sellers or agents, and present relevant property listings.",
       },
       {
         heading: "Account Management",
-        body: "To create and manage your Satwik Homes account, including authentication, password recovery, and account security.",
+        body: "To create and manage your Satwik Homes account, enable saved property alerts, and manage user preferences and authentication.",
       },
       {
         heading: "Communication",
-        body: "To send transactional emails (booking confirmations, payment receipts, itinerary updates), promotional communications (with your consent), and important service notices.",
+        body: "To send transactional notifications (inquiry confirmations, visit schedules), property alerts matching your saved criteria, promotional updates (with your consent), and service notices.",
       },
       {
         heading: "Personalisation",
-        body: "To recommend trips, destinations, and content tailored to your travel preferences, booking history, and browsing behaviour.",
+        body: "To recommend properties, projects, and real estate market trends tailored to your search history, location, and budget preferences.",
       },
       {
         heading: "Analytics & Improvement",
-        body: "To analyse platform usage, identify trends, debug issues, and improve our website, app, and overall service quality.",
+        body: "To analyze platform traffic, monitor listing engagement, debug technical issues, and improve our website performance.",
       },
       {
-        heading: "Legal Compliance",
-        body: "To comply with applicable laws, respond to legal process, enforce our terms of service, and protect the rights, property, and safety of Satwik Homes and our users.",
+        heading: "Legal & Regulatory Compliance",
+        body: "To comply with applicable real estate regulations (including RERA compliance where applicable), satisfy legal processes, enforce our terms of service, and protect the rights and safety of Satwik Homes and our users.",
       },
     ],
   },
@@ -60,14 +60,14 @@ const SECTIONS = [
     id: "information-sharing",
     title: "Information Sharing",
     content: [
-      "We do not sell, rent, or trade your personal information to third parties. We may share your information only in the following circumstances:",
+      "We do not sell, rent, or trade your personal contact details to third-party marketers. We share your information only under the following conditions:",
       {
-        heading: "Travel Suppliers",
-        body: "We share necessary booking details (name, contact, ID) with hotels, airlines, transport providers, trek operators, and other travel suppliers required to fulfil your trip.",
+        heading: "Property Partners & Agents",
+        body: "When you submit an inquiry or request a call for a specific property, we share your necessary contact details with the relevant property developers, real estate agents, or property owners so they can assist you.",
       },
       {
         heading: "Service Providers",
-        body: "We engage trusted third-party vendors who assist us in operating our platform — including payment processors (Razorpay), cloud hosting providers (AWS, Google Cloud), analytics tools (Google Analytics), and email service providers.",
+        body: "We engage trusted third-party service providers who assist us in operating our platform — including payment gateways (for premium listings/token amounts), cloud hosting providers (AWS, Google Cloud), analytics engines (Google Analytics), and customer communication tools.",
       },
       {
         heading: "Business Transfers",
@@ -75,7 +75,7 @@ const SECTIONS = [
       },
       {
         heading: "Legal Requirements",
-        body: "We may disclose your information if required to do so by law, court order, or government authority, or when we believe disclosure is necessary to protect our rights or the safety of others.",
+        body: "We may disclose your information if required to do so by law, court order, or government authority, or when we believe disclosure is necessary to protect legal rights and public safety.",
       },
     ],
   },
@@ -83,88 +83,88 @@ const SECTIONS = [
     id: "data-security",
     title: "Data Security",
     content: [
-      "We take the security of your personal information seriously and implement industry-standard technical and organisational measures to protect it.",
+      "We take the security of your personal and financial information seriously and implement industry-standard technical and organizational safeguards.",
       {
         heading: "Encryption",
-        body: "All data transmitted between your device and our servers is encrypted using TLS 1.2 or higher. Stored sensitive data, including payment information, is encrypted at rest using AES-256.",
+        body: "All data transmitted between your browser and our platform is encrypted using TLS 1.2 or higher. Stored sensitive records are encrypted at rest using AES-256 standard.",
       },
       {
         heading: "Access Controls",
-        body: "Access to personal data is restricted to employees and contractors who need it to perform their job functions. All personnel with data access are bound by confidentiality agreements.",
+        body: "Access to user and inquiry data is restricted strictly to authorized personnel who require access to perform their operational duties. All staff are bound by strict confidentiality agreements.",
       },
       {
         heading: "Payment Security",
-        body: "We do not store full card numbers on our servers. All payment processing is handled by PCI-DSS compliant payment processors.",
+        body: "We do not store complete payment card details or banking credentials on our servers. All financial transactions are processed securely through PCI-DSS compliant payment gateways.",
       },
       {
         heading: "Incident Response",
-        body: "We maintain a data breach response plan. In the unlikely event of a data breach affecting your information, we will notify you as required by applicable law.",
+        body: "We maintain a proactive security incident response plan. In the unlikely event of a security breach affecting your personal data, we will notify you in accordance with applicable legal requirements.",
       },
-      "Despite these measures, no method of transmission over the internet is 100% secure. We encourage you to use strong, unique passwords and to keep your account credentials confidential.",
+      "Despite these security protections, no method of transmission over the internet is completely risk-free. We advise you to use strong passwords and keep your login credentials confidential.",
     ],
   },
   {
     id: "cookies",
-    title: "Cookies & Tracking",
+    title: "Cookies & Tracking Technologies",
     content: [
-      "Satwik Homes uses cookies and similar tracking technologies to enhance your experience on our platform.",
+      "Satwik Homes uses cookies and similar technologies to optimize your search experience on our platform.",
       {
         heading: "Essential Cookies",
-        body: "Required for core functionality such as login sessions, shopping cart, and security features. These cannot be disabled.",
+        body: "Necessary for core platform features such as user login, shortlisting properties, and security functions. These cannot be disabled.",
       },
       {
         heading: "Analytics Cookies",
-        body: "Used to understand how visitors interact with our website (e.g., pages visited, time spent). We use Google Analytics for this purpose. You can opt out via Google's opt-out tool.",
+        body: "Help us measure platform traffic, identify popular residential regions, and analyze how users interact with property listings (e.g., Google Analytics).",
       },
       {
         heading: "Marketing Cookies",
-        body: "Used to deliver relevant advertisements on our platform and third-party sites. These are only set with your consent.",
+        body: "Used to present relevant real estate offers, projects, and ads tailored to your preferences across third-party websites.",
       },
       {
         heading: "Preference Cookies",
-        body: "Used to remember your settings and preferences (e.g., language, currency, notification preferences).",
+        body: "Remember your customized settings, such as your preferred search location, currency, and language.",
       },
-      "You can control cookies through your browser settings. Our cookie consent banner allows you to accept or decline non-essential cookies on your first visit.",
+      "You can manage cookie settings through your web browser preferences at any time.",
     ],
   },
   {
     id: "user-rights",
     title: "Your Rights",
     content: [
-      "Depending on your location, you may have the following rights regarding your personal data:",
+      "Subject to local laws, you have the following rights regarding your personal information:",
       {
         heading: "Access",
-        body: "You have the right to request a copy of the personal information we hold about you.",
+        body: "You have the right to request a copy of the personal details and property inquiry records we hold about you.",
       },
       {
         heading: "Correction",
-        body: "You can update or correct inaccurate personal information at any time through your account settings or by contacting us.",
+        body: "You may update or modify inaccurate profile details or property listing information at any time via your account settings or by contacting support.",
       },
       {
         heading: "Deletion",
-        body: "You may request deletion of your personal data. We will honour such requests subject to our legal obligations to retain certain records.",
+        body: "You may request the deletion of your account and personal data, subject to legal and regulatory retention requirements.",
       },
       {
         heading: "Portability",
-        body: "You may request your personal data in a structured, machine-readable format.",
+        body: "You can request a copy of your personal data in a structured, commonly used, machine-readable format.",
       },
       {
         heading: "Withdraw Consent",
-        body: "Where processing is based on your consent (e.g., marketing emails), you may withdraw that consent at any time by unsubscribing or contacting us.",
+        body: "Where processing relies on your consent (such as promotional real estate newsletters), you can unsubscribe or opt out at any time.",
       },
-      "To exercise any of these rights, please contact us at Satwik Homestravel@gmail.com. We will respond within 30 days.",
+      "To exercise any of these rights, please write to us at satwikhomes@gmail.com. We will respond within 30 days.",
     ],
   },
   {
     id: "contact-information",
     title: "Contact Information",
     content: [
-      "If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please reach out to us:",
+      "If you have questions, feedback, or concerns regarding this Privacy Policy or our real estate data practices, please contact us:",
       {
-        heading: "Satwik Homes Privacy Team",
-        body: "Email: Satwik Homestravel@gmail.com | Phone: +91-8816942362 | Address: SCO 98,Sec. 4-5, Urban Estate, Karnal Haryana — 132001",
+        heading: "Satwik Homes Privacy & Legal Team",
+        body: "Email: satwikhomes@gmail.com | Phone: +91-8816942362 | Address: SCO 98, Sec. 4-5, Urban Estate, Karnal, Haryana — 132001",
       },
-      "We take privacy inquiries seriously and are committed to resolving any concerns promptly. If you are not satisfied with our response, you have the right to escalate your complaint to the relevant data protection authority.",
+      "We take privacy inquiries seriously and will resolve your requests promptly. If you are not satisfied with our resolution, you retain the right to approach the appropriate data protection authority.",
     ],
   },
 ];
@@ -203,12 +203,14 @@ export default function PrivacyPolicy() {
           }
         });
       },
-      { rootMargin: "-20% 0px -70% 0px" },
+      { rootMargin: "-20% 0px -70% 0px" }
     );
+    
     SECTIONS.forEach((section) => {
       const el = document.getElementById(section.id);
       if (el) observer.observe(el);
     });
+    
     return () => observer.disconnect();
   }, []);
 
@@ -231,15 +233,13 @@ export default function PrivacyPolicy() {
           <p className="text-slate-400 text-sm">
             Last updated:{" "}
             {new Date().toLocaleDateString("en-US", {
-              date: "",
               month: "long",
               year: "numeric",
             })}
           </p>
           <p className="text-slate-300 mt-4 max-w-xl mx-auto leading-relaxed">
             At Satwik Homes, your privacy matters. This policy explains how we
-            collect, use, and protect your personal information when you use our
-            services.
+            collect, use, and safeguard your personal information when you navigate our platform and real estate services.
           </p>
         </div>
       </section>
@@ -264,7 +264,11 @@ export default function PrivacyPolicy() {
                   }`}
                 >
                   <ChevronRight
-                    className={`w-3.5 h-3.5 flex-shrink-0 ${activeSection === section.id ? "text-amber-500" : "text-slate-300"}`}
+                    className={`w-3.5 h-3.5 flex-shrink-0 ${
+                      activeSection === section.id
+                        ? "text-amber-500"
+                        : "text-slate-300"
+                    }`}
                   />
                   <span className="leading-tight">{section.title}</span>
                 </button>
@@ -298,10 +302,10 @@ export default function PrivacyPolicy() {
               </strong>{" "}
               Contact our privacy team at{" "}
               <a
-                href="mailto:privacy@Satwik Homes.in"
+                href="mailto:satwikhomes@gmail.com"
                 className="text-amber-600 hover:text-amber-700 font-medium underline underline-offset-2"
               >
-                Satwik Homestravel@gmail.com
+                satwikhomes@gmail.com
               </a>
               . We are committed to transparency and will respond to all privacy
               inquiries within 30 days.
