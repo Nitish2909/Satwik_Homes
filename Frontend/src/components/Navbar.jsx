@@ -167,11 +167,9 @@ const Navbar = () => {
                           </h3>
                           <ul className="space-y-3">
                             {[
-                              "Bangalore",
-                              "Hyderabad",
-                              "Mumbai",
-                              "Pune",
-                              "Goa",
+                              "Karnal",
+                              "Delhi NCR"
+                              ,
                             ].map((city) => (
                               <li key={city}>
                                 <Link
