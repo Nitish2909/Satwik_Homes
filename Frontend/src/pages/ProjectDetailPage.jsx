@@ -21,7 +21,7 @@ import {
 const newProjects = [
   {
     id: 1,
-    title: "Green Valley Apartments",
+    title: "Luxe Heights",
     builder: "Greenfield Developers",
     location: "Downtown, Cityville",
     priceRange: "₹85.0 Lacs - ₹1.2 Cr",
@@ -56,7 +56,7 @@ const newProjects = [
   },
   {
     id: 2,
-    title: "Eco Residency",
+    title: "Serenity Woods",
     builder: "EcoLiving Group",
     location: "Suburbs, Metro",
     priceRange: "₹60.0 Lacs - ₹92.0 Lacs",
@@ -80,6 +80,86 @@ const newProjects = [
     locationHighlights: [
       "Direct access to Highway 44",
       "Near Healthcare City Hospital"
+    ]
+  },
+  {
+    id: 3,
+    title: "Azure Tower",
+    builder: "Azure Realty Infra",
+    location: "Seaface, Metro",
+    priceRange: "₹1.40 Cr - ₹2.50 Cr",
+    bhk: "2, 3 BHK",
+    carpetArea: "1,150 - 1,750 sq.ft.",
+    possessionDate: "December 2027",
+    rera: "PRM/125",
+    status: "Under Construction",
+    mainImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80"
+    ],
+    floorPlans: [
+      { 
+        type: "2 BHK Executive", 
+        size: "1,150 sq.ft.", 
+        price: "₹1.40 Cr", 
+        image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=600&q=80" 
+      },
+      { 
+        type: "3 BHK Luxury", 
+        size: "1,750 sq.ft.", 
+        price: "₹2.50 Cr", 
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=600&q=80" 
+      }
+    ],
+    amenities: [
+      { name: "Infinity Swimming Pool", icon: <FaSwimmingPool /> },
+      { name: "Fitness Gym", icon: <FaDumbbell /> },
+      { name: "Sea-Facing Clubhouse", icon: <FaGlassCheers /> },
+      { name: "24/7 Security", icon: <FaShieldAlt /> }
+    ],
+    locationHighlights: [
+      "Panoramic sea-facing views from every apartment",
+      "5 minutes walk to Seaface Promenade",
+      "Close to elite business districts and fine dining"
+    ]
+  },
+  {
+    id: 4,
+    title: "The Crest",
+    builder: "Crestline Developers",
+    location: "Uptown, Metro",
+    priceRange: "₹2.20 Cr - ₹3.10 Cr",
+    bhk: "3 BHK",
+    carpetArea: "1,900 - 2,400 sq.ft.",
+    possessionDate: "Ready to Move",
+    rera: "PRM/126",
+    status: "Ready to Move",
+    mainImage: "https://images.unsplash.com/photo-1600607687931-cebf14cd7008?w=1200&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1600607687931-cebf14cd7008?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80"
+    ],
+    floorPlans: [
+      { 
+        type: "3 BHK Grand", 
+        size: "2,100 sq.ft.", 
+        price: "₹2.60 Cr", 
+        image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=600&q=80" 
+      }
+    ],
+    amenities: [
+      { name: "Indoor Badminton Court", icon: <FaFutbol /> },
+      { name: "Landscaped Gardens", icon: <FaTree /> },
+      { name: "Reserved Parking", icon: <FaParking /> },
+      { name: "Concierge Service", icon: <FaConciergeBell /> }
+    ],
+    locationHighlights: [
+      "Located in the heart of Uptown's commercial hub",
+      "Adjacent to Central Metro Station",
+      "Surrounded by top-tier international schools and multi-specialty hospitals"
     ]
   }
 ];

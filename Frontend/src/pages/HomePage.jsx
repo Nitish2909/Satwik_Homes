@@ -86,7 +86,7 @@ const HomePage = () => {
             bhk: "3 BHK",
             rera: "PRM/126",
             image:
-              "https://images.unsplash.com/photo-1600607687931-cebf14cd7008?w=800",
+              "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
           },
         ]);
       }
@@ -262,9 +262,9 @@ const HomePage = () => {
               impeccable craftsmanship to create spaces that inspire and elevate
               everyday living.
             </p>
-            <MagneticButton className="bg-[#79c96e] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#b08d55] transition-colors">
+            {/* <MagneticButton className="bg-[#79c96e] text-white px-8 py-3 rounded-md font-semibold hover:bg-[#b08d55] transition-colors">
               Know More
-            </MagneticButton>
+            </MagneticButton> */}
           </div>
           <div className="w-full lg:w-1/2 h-[500px]">
             <ImageReveal>

@@ -133,7 +133,7 @@ const App = () => {
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </AnimatePresence>
-            <SocialLinks/>
+         
             <Footer />
             {/* <BackToTop /> */}
           </React.Fragment>
