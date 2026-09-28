@@ -14,7 +14,10 @@ import {
   FaDumbbell, 
   FaParking, 
   FaTree,
-  FaCheck 
+  FaCheck, 
+  FaGlassCheers,
+  FaFutbol,
+  FaConciergeBell
 } from 'react-icons/fa';
 
 // Sample Data Array
